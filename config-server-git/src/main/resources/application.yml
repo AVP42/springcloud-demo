@@ -6,6 +6,11 @@ spring:
       server:
         git:
           uri: https://github.com/AVP42/config-repo-demo/
-          #配置配置中心的uri地址 由git管理
+#           指定git仓库地址
+#          basedir: config-repo #指定缓存文件夹
+#          配置配置中心的uri地址 由git管理
+#          search-paths: repo
+#          username:
+#          password:
 server:
   port: 1201
