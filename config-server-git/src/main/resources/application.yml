@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AVP42/config-repo-demo/
+          #配置配置中心的uri地址 由git管理
+server:
+  port: 1201
